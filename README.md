@@ -26,19 +26,19 @@ Este proyecto es una aplicación de chat en tiempo real que utiliza:
 
 ### 1. Clonar el proyecto
 
-```bash
+bash
 git clone https://github.com/JStevenMurilloG/chat-react
 cd chat-react
 
-2. Instalar dependencias del backend
+### 2. Instalar dependencias del backend
 cd server
 npm install
 
-3. Instalar dependencias del frontend
+### 3. Instalar dependencias del frontend
 cd ../client
 npm install
 
-Configuración de la Base de Datos
+## Configuración de la Base de Datos
 Abre tu gestor MySQL y crea una base de datos llamada:
 
 En la raíz del proyecto, crea un archivo .env con las variables de entorno:
@@ -50,18 +50,18 @@ PORT=3000
 
 Sequelize se encargará automáticamente de crear la tabla messages cuando el servidor se inicie.
 
-🚀 Ejecución del Proyecto
-1. Iniciar el servidor
+## 🚀 Ejecución del Proyecto
+### 1. Iniciar el servidor
 cd server
 npm run dev
 
-2. Iniciar la app de React
+### 2. Iniciar la app de React
 Abre otra terminal y ejecuta
 cd client
 npm run dev
 
 
-🧪 Cómo Probar el Chat
+## 🧪 Cómo Probar el Chat
 Abre http://localhost:5173 en dos pestañas distintas o en navegadores diferentes.
 
 Ingresa nombres de usuario distintos.
